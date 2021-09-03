@@ -68,6 +68,7 @@ fieldset{
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     text-indent: 10px;
     border: none;
+    text-transform: none;
 }
 .block-dados input:focus{
    background-color: rgb(255, 255, 255);
