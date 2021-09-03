@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/form.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Formulário Dev's</title>
+</head>
+<body>
+    <img src="img/bg-01.jpg" alt="background">
+    <div class="container">
+        <form action="" class="container-form">
+            <h1 class="title">Registro de Formulário Dev'<span>s</span></h1>
+            <fieldset class="block-dados">
+                <label class="dados-left" for="name">Nome:
+                    <input class="box" type="text" name="name" id="name">
+                </label>
+
+                <br><br>
+
+                <label class="dados-left" for="email">E-mail:
+                    <input class="box" type="email" name="email" id="email">
+                </label>
+
+                <br><br>
+
+                <label class="dados-left" for="phone">Telefone:
+                    <input class="box" type="tel" name="phone" id="phone">
+                </label>
+
+                <br><br>
+
+                <label class="dados-left">Sexo:
+                    <label class="radio-sexo" for="sexoM"><input  type="radio" name="sexo" id="sexoM" value="masculino"> Masculino</label> 
+                    <label class="radio-sexo" for="sexoF"><input type="radio" name="sexo" id="sexoF" value="feminino"> Feminino</label>
+                </label>    
+                <br><br>
+               
+                <label class="dados-left" for="date">Nascimento:
+                    <input class="box" type="date" name="date" id="date">
+                </label>
+
+                <br><br>
+
+                <label class="dados-left" for="school">Escolaridade:
+                    <select name="school" id="school">
+                        <option value="empty" ></option>
+                        <option value="fundamental">Ensino Fundamental</option>
+                        <option value="medio">Ensino Médio</option>
+                        <option value="superior">Ensino Superior</option>
+                        <option value="graduacao">Tecnólogo</option>
+                        <option value="pos">Pós-Graduação</option>
+                        <option value="phd">(Philosophy Doctor)Ph.D</option>
+                        <option value="mestrado">Mestrado</option>
+                    </select>
+                </label>    
+            </fieldset>
+
+            <fieldset class="block-tecnology">
+                <p>Qual lado da tecnologia que você se interesse?</p>
+                <label for="frond-end">
+                    <input type="radio" name="tecnologia" id="frond-end"> Front-end
+                </label>
+                
+                <label for="back-end">
+                    <input type="radio" name="tecnologia" id="back-end"> Back-end
+                </label>
+                
+                <label for="fullstack">
+                    <input type="radio" name="tecnologia" id="fullstack"> Full-stack
+                </label>
+            </fieldset>
+
+            <fieldset class="block-skills">
+                <p>Selecione todas as habilidade que você domina:</p>
+
+                <div class="habilidade">
+                    <ul class="list-category">
+                        <li><label for="html"><input type="checkbox" name="html" id="html"> HTML</label></li>
+                        <li><label for="javascript"><input type="checkbox" name="javascript" id="javascript"> Javascript</label></li>
+                        <li><label for="css"><input type="checkbox" name="css" id="css"> CSS</label></li>
+                        <li><label for="python"><input type="checkbox" name="python" id="python"> Python</label></li>
+                        <li><label for="php"><input type="checkbox" name="php" id="php"> PHP</label></li>
+                        <li><label for="nodejs"><input type="checkbox" name="nodejs" id="nodejs"> Node.Js</label></li>
+                        <li><label for="java"><input type="checkbox" name="java" id="java"> Java</label></li>
+                        <li><label for="angular"><input type="checkbox" name="angular" id="angular"> Angular</label></li>
+                        <li><label for="kotlin"><input type="checkbox" name="kotlin" id="kotlin"> Kotlin</label></li>
+                        <li><label for="c"><input type="checkbox" name="c" id="c"> C++</label></li>
+                        <li><label for="mongodb"><input type="checkbox" name="mongodb" id="mongodb" >MongoDB</label></li>
+                        <li><label for="azure"><input type="checkbox" name="azure" id="azure"> Azure</label></li>
+                        <li><label for="aws"><input type="checkbox" name="aws" id="aws"> AWS</label></li>
+                        <li><label for="flutter"><input type="checkbox" name="flutter" id="flutter"> Flutter</label></li>
+                        <li><label for="ruby"><input type="checkbox" name="ruby" id="ruby"> Ruby</label></li>
+                        <li><label for="reactjs"><input type="checkbox" name="reactjs" id="reactjs"> ReactJs</label></li>
+                        <li><label for="flask"><input type="checkbox" name="flask" id="flask"> Flask</label></li>
+                        <li><label for="xamarin"><input type="checkbox" name="xamarin" id="xamarin"> Xamarin</label></li>
+                    </ul>
+                </div>
+            </fieldset>
+
+            <fieldset class="button">
+                <input class="buttons" type="submit" value="Enviar"> <input class="buttons" type="reset" value="Resetar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
