@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(img/bg-01.jpg);
+    background-image: url(img/thumb-1920-633270.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -15,7 +15,7 @@ body{
 
 .container{
     position: relative;
-    max-width: 550px;
+    max-width: 40em;
     margin: 50px auto;
 }
 fieldset{
@@ -27,7 +27,7 @@ fieldset{
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
-    max-width: 450px;
+    max-width: 410px;
     margin: 0 auto;
     
 }
@@ -50,8 +50,9 @@ fieldset{
 
 /************CAMPOS DADOS****************/
 .block-dados, .block-tecnology, .block-skills{
+    margin-top: 10px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-weight: 600;
     letter-spacing: 0.2px;
     
@@ -125,9 +126,12 @@ fieldset{
 .block-tecnology label{
     font-weight: normal;
 }
+.block-tecnology label:hover{
+    color:#ffffff;
+    cursor: pointer;
+}
 /******************CAMPO HABILIDADE*******************/
 .habilidade {
-    width: 400px;
     text-align: initial;
     margin-top: 10px ;
     margin-left: 10px;
@@ -144,8 +148,15 @@ fieldset{
 }
 .list-category li{
     display: inline-block;
+    padding: 2px;
     margin-top: 5px;
     margin-left: 7px;
+    
+}
+
+.list-category li:hover{
+    color:#ffffff;
+    cursor: pointer;
 }
 /******************CAMPO BOTÃO*******************/
 .button{
@@ -160,12 +171,13 @@ fieldset{
     background-color: #1a1a1a;
     color: #fff;
     margin-bottom: 25px;
+    margin-top: 25px;
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
 }
 .buttons:hover{
-    background: linear-gradient(#e66465, #9198e5);
+    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     color: #1a1a1a;
 }
