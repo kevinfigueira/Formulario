@@ -24,7 +24,7 @@ fieldset{
 /********************FORMULARIO*****************/
 
 .container-form{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
     max-width: 410px;
