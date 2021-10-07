@@ -16,6 +16,7 @@ body{
 .container{
     position: relative;
     max-width: 40em;
+    min-width: 27em;
     margin: 50px auto;
 }
 fieldset{
@@ -129,7 +130,7 @@ fieldset{
     font-weight: normal;
 }
 .block-tecnology label:hover{
-    color:#592088f6;
+    color:#cc00fff6;
     cursor: pointer;
 }
 /******************CAMPO HABILIDADE*******************/
@@ -156,7 +157,7 @@ fieldset{
 }
 
 .list-category label:hover{
-    color:#592088f6;   
+    color:#cc00fff6;   
 }
 .list-category label, .list-category input{
     cursor: pointer;

@@ -14,37 +14,37 @@
             <h1 class="title">Registro de Formulário Dev'<span>s</span></h1>
             <fieldset class="block-dados">
                 <label class="dados-left" for="name">Nome:
-                    <input class="box" type="text" name="name" id="name">
+                    <input class="box" type="text" name="name" id="name" placeholder="Nome completo" required>
                 </label>
 
                 <br><br>
 
                 <label class="dados-left" for="email">E-mail:
-                    <input class="box" type="email" name="email" id="email">
+                    <input class="box" type="email" name="email" id="email" placeholder="E-mail" required>
                 </label>
 
                 <br><br>
 
                 <label class="dados-left" for="phone">Telefone:
-                    <input class="box" type="tel" name="phone" id="phone">
+                    <input class="box" type="tel" name="phone" id="phone" placeholder="(00) 00000-0000" required>
                 </label>
 
                 <br><br>
 
                 <label class="dados-left">Sexo:
-                    <label class="radio-sexo" for="sexoM"><input  type="radio" name="sexo" id="sexoM" value="masculino"> Masculino</label> 
-                    <label class="radio-sexo" for="sexoF"><input type="radio" name="sexo" id="sexoF" value="feminino"> Feminino</label>
+                    <label class="radio-sexo" for="sexoM"><input  type="radio" name="sexo" id="sexoM" value="masculino" required> Masculino</label> 
+                    <label class="radio-sexo" for="sexoF"><input type="radio" name="sexo" id="sexoF" value="feminino" required> Feminino</label>
                 </label>    
                 <br><br>
                
                 <label class="dados-left" for="date">Nascimento:
-                    <input class="box" type="date" name="date" id="date">
+                    <input class="box" type="date" name="date" id="date" required>
                 </label>
 
                 <br><br>
 
                 <label class="dados-left" for="school">Escolaridade:
-                    <select name="school" id="school">
+                    <select name="school" id="school" required>
                         <option value="empty" ></option>
                         <option value="fundamental">Ensino Fundamental</option>
                         <option value="medio">Ensino Médio</option>
@@ -101,7 +101,7 @@
             <fieldset class="block-about">
                 <p>Fale um pouco sobre você:</p>
 
-                <textarea class="about" name="about" id="about" cols="45" rows="10"></textarea>
+                <textarea class="about" name="about" id="about" cols="45" rows="10" required></textarea>
             </fieldset>
 
             <fieldset class="button">
